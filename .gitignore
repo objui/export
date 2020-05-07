@@ -1,0 +1,10 @@
+/.idea
+*.log
+.env
+.DS_Store
+.project
+node_modules
+.settings
+vendor
+Log
+Temp

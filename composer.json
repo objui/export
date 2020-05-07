@@ -1,0 +1,22 @@
+{
+    "name": "objui/export",
+    "desciption": "This is Excel file processing",
+    "license": "MIT",
+     "authors": [
+        {
+            "name": "objui",
+            "email": "objui@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require":{
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "objui\\export\\": "src/" 
+        }
+     },
+    "require-dev": {
+    }
+}
