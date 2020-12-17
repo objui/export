@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b94b8c0dca37338008eed8b4d9d28532",
+    "content-hash": "d89fb2e0f788dc52fa06c5af961ea906",
     "packages": [
         {
             "name": "pclzip/pclzip",
@@ -112,16 +112,16 @@
         },
         {
             "name": "phpoffice/phpword",
-            "version": "dev-master",
+            "version": "0.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PHPWord.git",
-                "reference": "072c3bfdb327f6984b8bb378b08f83ae2293a708"
+                "reference": "b8346af548d399acd9e30fc76ab0c55c2fec03a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PHPWord/zipball/072c3bfdb327f6984b8bb378b08f83ae2293a708",
-                "reference": "072c3bfdb327f6984b8bb378b08f83ae2293a708",
+                "url": "https://api.github.com/repos/PHPOffice/PHPWord/zipball/b8346af548d399acd9e30fc76ab0c55c2fec03a5",
+                "reference": "b8346af548d399acd9e30fc76ab0c55c2fec03a5",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -223,7 +223,7 @@
                 "word",
                 "writer"
             ],
-            "time": "2019-12-08T14:47:53+00:00"
+            "time": "2019-10-01T20:43:33+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -281,9 +281,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "phpoffice/phpword": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
