@@ -49,13 +49,14 @@ $obj->export();
 */
 
 #xlsx导入
+/*
 $config = [
     'file_path' => './test.xlsx'
 ];
 $obj = new Export($config);
 $result = $obj->import();
 var_dump($result);
-
+*/
 
 #xlsx导出
 /*
@@ -70,6 +71,25 @@ $obj = new Export($config);
 $obj->export();
 */
 
+#WORD导入
+/*
+$config = [
+    'file_path' => 'test.docx'
+];
+$obj = new Export($config);
+$result = $obj->import();
+var_dump($result);
+*/
+
+#word 导出
+$config = [
+   'table_data' => '姓名：objui <br>
+网址：https://www.objui.com',
+  'suffix' => 'docx'
+];
+
+$obj = new Export($config);
+$obj->export(); 
 
 
 

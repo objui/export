@@ -35,6 +35,11 @@ class Export
                 case 'csv':
                     self::$obj = new export\Csv(self::$config);
                     break;
+              
+                case 'doc':
+                case 'docx':
+                    self::$obj = new export\Word(self::$config);
+                    break;
                 default:
                     //Excel2003
                     self::$obj = new export\Excel5(self::$config);
