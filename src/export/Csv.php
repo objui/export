@@ -55,7 +55,7 @@ class Csv implements IExcel
                 $num=0;
             }
             foreach ($v as $t){
-                $tarr[]=iconv('UTF-8', 'gbk',$t);
+                $tarr[]=mb_convert_encoding($t, 'GBK', 'UTF-8');
             }
             fputcsv($fp,$tarr);
             unset($tarr);

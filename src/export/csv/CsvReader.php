@@ -14,7 +14,7 @@ class CsvReader
     }
 
     /**
-     * ÎÄ¼þ¼ì²â
+     * æ–‡ä»¶æ£€æµ‹
      * @param $csv_file
      * @return bool
      */
@@ -54,7 +54,7 @@ class CsvReader
     }
 
     /**
-     * ¶ÁÈ¡Êý¾Ý
+     * è¯»å–æ•°æ®
      * @param int $length
      * @param int $start
      * @return array|bool
@@ -71,7 +71,7 @@ class CsvReader
         while ($length-- && !$this->spl_object->eof()) {
             $tmpArr = [];
             $tmpArr = $this->spl_object->fgetcsv();
-            //×ª»»±àÂë
+            //è½¬æ¢ç¼–ç 
             for($i=0;$i<count($tmpArr);$i++){
                 $tmpArr[$i] = iconv('gbk','utf-8',$tmpArr[$i]);
             }
